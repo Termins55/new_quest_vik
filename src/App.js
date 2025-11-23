@@ -1,7 +1,7 @@
-import ResourceSwitcher from "./Components/ResourceSwitcher";
+import Timer from "./Components/Timer";
 
 function App() {
-  return <ResourceSwitcher />;
+  return <Timer />;
 }
 
 export default App;
