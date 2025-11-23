@@ -1,7 +1,7 @@
-import DataLoader from "./Components/DataLoader";
+import ResourceSwitcher from "./Components/ResourceSwitcher";
 
 function App() {
-  return <DataLoader />;
+  return <ResourceSwitcher />;
 }
 
 export default App;
