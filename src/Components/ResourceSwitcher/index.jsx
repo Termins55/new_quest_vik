@@ -22,7 +22,7 @@ class ResourceSwitcher extends Component {
     this.loadResource();
   }
 
-  componentDidUpdate(prevState) {
+  componentDidUpdate(prevProps, prevState) {
     const { productId } = this.state;
     if (prevState.productId !== productId) {
       this.loadResource();
@@ -45,6 +45,7 @@ class ResourceSwitcher extends Component {
     if (isLoading) {
       return <p>Loading...</p>;
     }
+    console.log(isLoading);
     return (
       <>
         <h2>{product.title}</h2>
